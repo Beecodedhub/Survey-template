@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="wdith=device-width initial scale=1.0">
+</head>
+<body>
+  <header>
+    <h1 id="title">SurveyForm <span class="span-title">Template</span></h1>
+    <p class="form-description" id="description"><em>A quick survey to serve you better...</em></p>
+  </header>
+  <div class="ruler"></div>
+  <form id="survey-form" class="container">
+
+    <div class="information">
+      <label id="name-label" for="name">Name: </label>
+      <input type="text" id="name" placeholder="Enter your name" Required autocomplete="on" />
+    </div>
+
+    <div class="information">
+      <label for="email" id="email-label">Email:
+      <input type="email" id="email" placeholder="Enter your  email address" Required />
+      </label>
+    </div>
+
+    <div class="information">
+      <label id="number-label">Age:
+      <input id="number" type="number" min="18" max="100" placeholder="Enter your Age" Required />
+      </label>
+    </div>
+
+    <div class="information">
+      <p class="gender-units">Gender:</p>
+      <label><input class="male-female" id="male" type="radio" name="gender-type" value="Male" />Male</label><br>
+      <label><input class="male-female" id="female" type="radio" name="gender-type" value="Female" />Female</label>
+    </div>
+
+    <div class="information">
+      <label id="dropdown-label" />How did you hear about us?:
+      <select id="dropdown">
+        <option selected>Please choose one</option>
+        <option>Referral</option>
+        <option>Social media</option>
+        <option>Ads</option>
+        <option>Others</option>
+      </select>
+      </label>
+    </div>
+
+    <div class="information">
+      <p class="gender-units">Recommendation of other units to be added to the institution. (<em>If any?</em>)</p>
+      <label><input class="unit" type="checkbox" value="security-unit" />Security unit</label><br>
+      <label><input class="unit" type="checkbox" value="catering-unit" />Catering service unit</label><br>
+      <label><input class="unit" type="checkbox" value="hostel-admin" />Hostel administrator</label>
+    </div>
+    
+    <div class="information">
+      <label>Comments?
+      <textarea rows="5" cols="40" placeholder="Type comments..." /></textarea>
+      </label>
+    </div>
+    <div class="information btn">
+      <input class="submit-btn" id="submit" type="submit" />
+    </div>
+  </form>
+  <div class="ruler"></div>
+  <footer>
+    <p>Oluwagbenga 😍 2022. All Rights Reserved</p>
+  </footer>
+</body>
+</html>
