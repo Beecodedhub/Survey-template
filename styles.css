@@ -6,7 +6,7 @@
 
 body {
     /**background: rgb(76, 113, 154); **/
-    background-image: url("/image/bground.jpg");
+    background-image: url("image/bground.jpg");
     background-size: cover;
     color: #fff;
     height: 100%;
